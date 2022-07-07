@@ -2,13 +2,12 @@
     margin: 0%;
     padding: 0%;
 }
-/* body{
+body{
     background-image: url('/download.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    
-} */
+    background-size:100% 100% ;
+}
 
 h1 {
     font-size: 250px;
@@ -80,9 +79,4 @@ btn {
     justify-content: space-evenly;
     margin-right: 30px;
 }
-@media only screen and (max-width: 375px) {
-    nav {
-      display: hidden;
-    }
-  }
-  
+
